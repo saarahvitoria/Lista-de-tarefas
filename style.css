@@ -1,0 +1,89 @@
+  body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color:white; /* cor da nossa fonte*/
+    display: flex; /* torna os elementos flexiveis*/
+    flex-direction: column; /* muda a direcao*/
+    align-items: center; /* alinha*/
+    gap: 4rem; /* dá espassamento entre eles*/
+  }
+
+#content{ /*primeira div*/
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#content-itens{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+#input-nova-tarefa,
+#boton-nova-tarefa{
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  padding: 1rem;
+    
+}
+
+#input-nova-tarefa{
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+#boton-nova-tarefa{
+  background-color: #FFC107;
+  color: #212121;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#lista-de-tarefas{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+#lista-de-tarefas li{
+   list-style-type: none;
+   font-size: 1.4rem;
+   text-transform: capitalize;
+   display: flex;
+   justify-content: space-between;
+}
+
+#btn-ok{
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 1rem;
+  padding: .4rem .8rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; 
+}
+
+#footer {
+  background-color: #000;
+  padding: 20px;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
